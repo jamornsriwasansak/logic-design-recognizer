@@ -7,12 +7,21 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{826f14cb-02ba-4634-ab05-7b7f82d2be64}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{1cb51166-7db2-4a7a-95b1-9eab1e4e1992}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hungarian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="application_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_win.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -20,5 +29,25 @@
     <ClInclude Include="hungarian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="js_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="method_dispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.html">
+      <Filter>GUI</Filter>
+    </None>
+    <None Include="app.css">
+      <Filter>GUI</Filter>
+    </None>
   </ItemGroup>
 </Project>

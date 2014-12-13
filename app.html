@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Logic Design Recognition</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a>
+                        <h3>Logic Design Recoginition</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bs-docs-grid">
+        <div class="row show-grid">
+            <label style="margin-right:134px">Your file dir</label>
+            <input id="filedir" style="width:400px" />
+        </div>
+        <div class="row show-grid">
+            <label style="margin-right:30px">Your gate output file name</label>
+            <input style="width:200px" id="picoutname"/>
+        </div>
+        <div class="row show-grid">
+            <label style="margin-right:11px">Your verilog output file name</label>
+            <input style="width:200px" id="verilogoutname"/>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary vertical-center" onclick="app.sayHello()">Recognition</button>
+        </div>
+    </div>
+</body>
+</html>

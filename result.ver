@@ -1,0 +1,10 @@
+module combination_logic (i0, i1, i2, i3, i4, o0);
+	input i0, i1, i2, i3, i4;
+	output o0;
+	wire w0, w1, w2;
+
+	or or0(w2, i3, i4);
+	and an0(w1, i2, w2);
+	and an1(o0, w0, w1);
+	or or1(w0, i0, i1);
+endmodule
